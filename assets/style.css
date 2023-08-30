@@ -228,8 +228,13 @@ input[type=submit] {
 #about, #contact .container, #services .container {
     flex-direction: column;
 }
+
 .picture {
     width: 50%}
+picture img{
+object-fit: cover;
+
+    }
 .picture.left::before {
     bottom: auto;
     top: 0;
